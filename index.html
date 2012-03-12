@@ -6,28 +6,43 @@
   <title>robertodecurnex/i_heart_quotes @ GitHub</title>
 
   <style type="text/css">
+    @font-face {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Josefin Sans'), local('JosefinSans'), url('http://themes.googleusercontent.com/font?kit=xgzbb53t8j-Mo-vYa23n5onF5uFdDttMLvmWuJdhhgs') format('truetype');
+    }
     body {
       margin-top: 1.0em;
-      background-color: #4b3a83;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #ffffff;
+      background-color: #00313c;
+      font-family: 'Josefin Sans', serif; color: #979797;
     }
     #container {
       margin: 0 auto;
       width: 700px;
     }
-    h1 { font-size: 3.8em; color: #b4c57c; margin-bottom: 3px; }
+    h1 { font-size: 3.0em; color: #fffda8; margin-bottom: 3px; }
     h1 .small { font-size: 0.4em; }
     h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #b4c57c; }
-    h3 { text-align: center; color: #b4c57c; }
-    a { color: #b4c57c; }
+    h2 { font-size: 1.5em; color: #fffda8; }
+    h3 {  color: #fffda8; }
+    a { color: #fffda8; }
     .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
     pre { background: #000; color: #fff; padding: 15px;}
     hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
     .footer { text-align:center; padding-top:30px; font-style: italic; }
   </style>
+
+  <script type="text/javascript" src="http://github.com/robertodecurnex/kCode/raw/master/kCode.min.js"></script>
+  <script type="text/javascript">
+    window.onload = function(){
+      kCode.listen(
+        function(){
+          alert("CATS: ALL YOUR BASE ARE BELONG TO US.");
+        }
+      );
+    }
+  </script> 
 </head>
 
 <body>
