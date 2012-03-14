@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'i_heart_quotes'
-  s.version = '0.1.0'
-  s.date = '2012-03-06'
+  s.version = '0.2.0'
+  s.date = '2012-03-14'
   s.summary = 'I <3 Quotes Client'
   s.authors = ['Roberto Decurnex']
   s.email = 'nex.development@gmail.com'

@@ -8,6 +8,10 @@ This is a ruby client to interact with the [I <3 Quotes](http://iheartquotes.com
 
 (Working on Ruby 1.9.X - Let me know if you need the 1.8.X version)
 
+## Full Documentation
+
+http://rdoc.info/gems/i_heart_quotes/frames
+
 ## Authors
 
 Roberto Decurnex (nex.development@gmail.com)
@@ -42,4 +46,24 @@ You can also clone the project with Git by running:
     fortune.tags #=> ["hitchhiker"]
 
     fortune.link #=> "http://iheartquotes.com/fortune/show/7934"
+
+### Using filters
+
+    require 'i_heart_quotes'
  
+    # Returns a quote from the hitchhiker that has a single line.
+    IHeartQuotes::Client.where(:source => "hitchhiker", :max_lines => 1).random
+
+    # Returns a quote from the either hitchhiker or cryptonomicon that has at most 2 lines.
+    # Note that you can chain as many where s as you want.
+    IHeartQuotes::Client.where(:source => "hitchhiker+cryptonomicon").where(:max_lines => 2).random
+
+## Supported Filters
+
+* **:source** ("+" separated list of desired sources. Available sources at http://iheartquotes.com/api)
+* **:max_lines** (maximum number of lines in the quote)
+* **:min_lines** (minumum number of lines in the quote)
+* **:max_characters** (maximum number of characters in the quote)
+* **:min_characters** (minimum number of characters in the quote)
+
+
