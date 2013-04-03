@@ -1,4 +1,6 @@
-# i_heart_quots ![Travis Status](https://secure.travis-ci.org/robertodecurnex/i_heart_quotes.png?branch=master) ![Dependecies Status](https://gemnasium.com/robertodecurnex/i_heart_quotes.png)
+# i_heart_quotes 
+
+![Travis Status](https://secure.travis-ci.org/robertodecurnex/i_heart_quotes.png?branch=master) - ![Dependecies Status](https://gemnasium.com/robertodecurnex/i_heart_quotes.png) - [![Code Climate](https://codeclimate.com/github/robertodecurnex/i_heart_quotes.png)](https://codeclimate.com/github/robertodecurnex/i_heart_quotes)
 
 I <3 Quotes Client
 
