@@ -16,7 +16,7 @@ http://rdoc.info/gems/i_heart_quotes/frames
 
 ## Authors
 
-Roberto Decurnex (nex.development@gmail.com)
+Roberto Decurnex (decurnex.roberto@gmail.com)
 
 ## Install
 
